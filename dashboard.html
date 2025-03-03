@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+   body {
+    padding: 40px;
+    background: linear-gradient(to right, #F7C0D2, #AACCE7); /* Updated Background Gradient */
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #101820FF; /* Darker color for contrast */
+    font-size: 2rem;
+}
+
+button {
+    background-color: #101820FF; /* Dark Blue */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 20px auto; /* Center button */
+}
+
+button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #555;
+}
+
+div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333; /* Darker for better readability */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+span {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #101820FF;
+}
+
+</style>
+<script type="module" src="dashboard.js"></script>
+
+</head>
+<body>
+    <h1>Welcome to dashoard</h1>
+    <div>First Name: <span id="Loggeduserfname"></span> </div>
+    <div>last Name: <span id="Loggeduserlname"></span> </div>
+    <div>Email: <span id="Loggeduseremail"></span></div>
+    <button id="logout">Logout</button>
+</body>
+</html>

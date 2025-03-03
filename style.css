@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #F7C0D2; /* Updated Background Color */
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  background: #AACCE7; /* Updated Card Color */
+}
+
+.form-container {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.form-section {
+  width: 50%;
+  height: 100%;
+  background: #AACCE7; /* Updated Card Color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  transition: all 0.6s ease-in-out;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form input {
+  background: #f0f0f0;
+  border: none;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+form input:focus {
+  background: #e0e0e0;
+}
+
+form button {
+  background-color: #101820FF;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #333;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: #555;
+}
+
+.remember-me input {
+  margin-right: 10px;
+}
+
+.toggle-container {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  background: #101820FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.6s ease-in-out;
+  right: 0;
+}
+
+.toggle-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.toggle-container p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.toggle-container button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-container button:hover {
+  background-color: #fff;
+  color: #101820FF;
+}
+
+/* Keep Toggle Mechanism as Click */
+.container.active .form-container {
+  transform: translateX(-50%);
+}
+
+.messagediv {
+  background-color: chocolate;
+  color: white;
+  margin: 10px;
+  opacity: 0;
+  animation: fadeOut 7s forwards;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
