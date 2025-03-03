@@ -1,0 +1,21 @@
+Steps to integrate it with firebase
+-> Go t firebase console
+-> Create account if haven't created yet
+-> Then get started 
+-> Create project give name of your choice 
+-> Then continue 
+-> Disable google anlytics
+-> Continue 
+-> In the dashboard section there are multiple option, you just need to web 
+-> Give project name 
+-> Then it gives you the firebase credentials
+-> Swipe to <script> and copy those credentails and paste in login.js file and dashboard.js where i comment.
+-> Then go to firebase, in overview your project scroll down and go to authentication.
+-> Go to email,password authentication and enable it.
+-> In authentication go to setting, scroll down and click on authorized domain.
+-> Make sure you run the index.html file in live server copy the domain from url e.g, 27.0.0.1 only add this portion in add domain whatever is yours.
+-> Then again go to project overview in firebase, go to firebase database 
+-> Then get started and create the database. Just click on continue you don't need to make any changes just create.
+-> After successful creation of database go to rules and in line 6 change false to true and pulish changes. 
+-> Creation of datbase is only useful if you want to see user's details. 
+
