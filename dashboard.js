@@ -3,7 +3,7 @@ import { getAuth, onAuthStateChanged,signOut } from "https://www.gstatic.com/fir
 import { getFirestore, getDoc, doc } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "",      // paste the firebase configuration 
+    apiKey: "",      // paste here the firebase configuration
     authDomain: "",
     projectId: "",
     storageBucket: "",
