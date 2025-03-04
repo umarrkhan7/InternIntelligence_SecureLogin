@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #F7C0D2; /* Updated Background Color */
+  background: #F7C0D2;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  background: #AACCE7; /* Updated Card Color */
+  background: #AACCE7;
 }
 
 .form-container {
@@ -34,7 +34,7 @@ body {
 .form-section {
   width: 50%;
   height: 100%;
-  background: #AACCE7; /* Updated Card Color */
+  background: #AACCE7; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,7 +131,6 @@ form button:hover {
   color: #101820FF;
 }
 
-/* Keep Toggle Mechanism as Click */
 .container.active .form-container {
   transform: translateX(-50%);
 }

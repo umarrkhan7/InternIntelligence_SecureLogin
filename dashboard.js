@@ -3,12 +3,12 @@ import { getAuth, onAuthStateChanged,signOut } from "https://www.gstatic.com/fir
 import { getFirestore, getDoc, doc } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBWMLEBqNsZJS2iZDZiS8YT4oBJ9FhJfRc",
-    authDomain: "login-app-b2f27.firebaseapp.com",
-    projectId: "login-app-b2f27",
-    storageBucket: "login-app-b2f27.firebasestorage.app",
-    messagingSenderId: "598921171230",
-    appId: "1:598921171230:web:90bb53769bac6386e4f90f"
+    apiKey: "",      // paste the firebase configuration 
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   };
   
   // Initialize Firebase
