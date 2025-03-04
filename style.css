@@ -142,6 +142,6 @@ form button:hover {
   opacity: 0;
   animation: fadeOut 7s forwards;
   font-size: 1.5rem;
-  border-radius: 10px;
+  border-radius: 9px;
   padding: 10px 20px;
 }

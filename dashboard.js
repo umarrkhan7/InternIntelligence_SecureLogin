@@ -40,7 +40,7 @@ const firebaseConfig = {
         console.error("Error getting document:", error);
       }
     } else {
-      console.log("User ID not found in local storage.");
+      console.log("User ID not found in local storage");
     }
   });
   const logout=document.getElementById('logout');

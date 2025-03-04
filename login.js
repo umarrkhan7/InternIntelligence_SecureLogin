@@ -27,7 +27,7 @@ function showMessage(msg, divid) {
   }, 5000);
 }
 
-// Handle Sign Up
+// Handle Sign up
 const signUpForm = document.querySelector("#signUpForm form");
 signUpForm.addEventListener("submit", async (event) => {
   event.preventDefault();
